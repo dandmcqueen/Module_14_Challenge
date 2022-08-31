@@ -89,10 +89,14 @@ from sklearn import model_selection
 
 # Ada Tuned Model
 
-**The Ada tuned model showed the best results.  It greatly improved the recall and f-1 for the -1 results but this came at a cost as the recall for the 1.0 results dropped.  It performed well through 2019 and had great results for the fisrt half of 2020.  Further adjustments could be made to the SMA's and data size to help correct the drop through the second half of 2020.**
+**The Ada tuned model showed the best results.  It greatly improved the recall and f-1 for the -1 results but this came at a cost as the recall for the 1.0 results dropped.  It performed well through 2019 and had great results for the fisrt half of 2020.**
 
 <p align="left"><img src="images/ada_tune.jpg">
 
+
+## End Results
+---
+**Tuning the ADA model showed the most promising for adjusting the original trading strategy.  It performed well in 2019 where other models struggled. It also showed the best results from 2020 on.  Tuning the SMA's and the data sample size would help correct the the last 6 or 7 months where its performance started to falter.**
 ---
 
 <br/>
