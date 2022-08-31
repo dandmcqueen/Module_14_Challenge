@@ -55,7 +55,7 @@ from sklearn import model_selection
 
 **The baseline model had good results, showing an ability to beat the actual results from 2019 to 2021. It did show a poor recall and f-1 score for the -1 results.**
 
-<p align="left"><img src="images/svm_base.JPG"></p>
+<p align="left"><img src="images/svm_base.jpg"></p>
 
 <br/>
 <br/>
@@ -64,7 +64,7 @@ from sklearn import model_selection
 
 **The 6 month model followed the actual results well early on. It underperformed from 2019 to 2021 but was able to beat the actual returns after. This model also had a poor recall and f-1 score for the -1 results.**
 
-<p align="left"><img src="images/svm_6_month.JPG">
+<p align="left"><img src="images/svm_6_month.jpg">
 
 <br/>
 <br/>
@@ -73,7 +73,7 @@ from sklearn import model_selection
 
 **With the SMA short and long increased the Strategy Return was able to match closely with the actual returns but showed little ability to beat the actual returns**
 
-<p align="left"><img src="images/svm_8_150.JPG">
+<p align="left"><img src="images/svm_8_150.jpg">
 
 <br/>
 <br/>
@@ -82,7 +82,7 @@ from sklearn import model_selection
 
 **The Ada baseline model moved similar to the 6 month model. It showed a small increase in the reacall and f-1 score fro the -1 results but failed to perform well from 2019 to 2020. It had good results for 2021.**
 
-<p align="left"><img src="images/ada_base.JPG">
+<p align="left"><img src="images/ada_base.jpg">
 
 <br/>
 <br/>
@@ -91,7 +91,7 @@ from sklearn import model_selection
 
 **The Ada tuned model showed the best results.  It greatly improved the reacall and f-1 for the -1 results but this came at a cost as the recall for the 1.0 results dropped.  It performed well through 2019 and had great results for the fisrt half of 2020.  Further adjustments could be made to the SMA's and data size to help correct the drop through the second half of 2020.
 
-<p align="left"><img src="images/ada_tune.JPG">
+<p align="left"><img src="images/ada_tune.jpg">
 
 ---
 
